@@ -1,3 +1,7 @@
+## 1.6.2
+
+* Fix wrong build entrypoint
+
 ## 1.6.1
 
 * Adapt package to flave
