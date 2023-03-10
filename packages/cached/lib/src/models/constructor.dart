@@ -1,6 +1,6 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/config.dart';
-import 'package:cached/src/models/param.dart';
+import 'package:persistant_cached/src/config.dart';
+import 'package:persistant_cached/src/models/param.dart';
 
 class Constructor {
   const Constructor({

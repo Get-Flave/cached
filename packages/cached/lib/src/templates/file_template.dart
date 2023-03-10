@@ -1,6 +1,6 @@
-import 'package:cached/src/models/class_with_cache.dart';
-import 'package:cached/src/templates/class_template.dart';
-import 'package:cached/src/templates/interface_template.dart';
+import 'package:persistant_cached/src/models/class_with_cache.dart';
+import 'package:persistant_cached/src/templates/class_template.dart';
+import 'package:persistant_cached/src/templates/interface_template.dart';
 
 class FileTemplate {
   FileTemplate(ClassWithCache classWithCache)

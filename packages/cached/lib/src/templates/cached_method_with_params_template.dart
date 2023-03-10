@@ -1,9 +1,9 @@
-import 'package:cached/src/models/cached_method.dart';
-import 'package:cached/src/models/param.dart';
-import 'package:cached/src/templates/all_params_template.dart';
-import 'package:cached/src/templates/cached_method_template.dart';
-import 'package:cached/src/utils/utils.dart';
 import 'package:collection/collection.dart';
+import 'package:persistant_cached/src/models/cached_method.dart';
+import 'package:persistant_cached/src/models/param.dart';
+import 'package:persistant_cached/src/templates/all_params_template.dart';
+import 'package:persistant_cached/src/templates/cached_method_template.dart';
+import 'package:persistant_cached/src/utils/utils.dart';
 
 class CachedMethodWithParamsTemplate extends CachedMethodTemplate {
   CachedMethodWithParamsTemplate(

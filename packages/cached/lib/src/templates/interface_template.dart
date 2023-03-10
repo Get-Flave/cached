@@ -1,4 +1,4 @@
-import 'package:cached/src/models/class_with_cache.dart';
+import 'package:persistant_cached/src/models/class_with_cache.dart';
 
 class InterfaceTemplate {
   InterfaceTemplate(this.classWithCache);

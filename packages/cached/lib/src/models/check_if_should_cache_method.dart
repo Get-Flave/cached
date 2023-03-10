@@ -1,6 +1,6 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/utils/asserts.dart';
-import 'package:cached/src/utils/utils.dart';
+import 'package:persistant_cached/src/utils/asserts.dart';
+import 'package:persistant_cached/src/utils/utils.dart';
 
 class CheckIfShouldCacheMethod {
   const CheckIfShouldCacheMethod({

@@ -1,14 +1,14 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
-import 'package:cached/src/models/cache_peek_method.dart';
-import 'package:cached/src/models/cached_function.dart';
-import 'package:cached/src/models/cached_getter.dart';
-import 'package:cached/src/models/cached_method.dart';
-import 'package:cached/src/models/clear_all_cached_method.dart';
-import 'package:cached/src/models/clear_cached_method.dart';
-import 'package:cached/src/models/deletes_cache_method.dart';
-import 'package:cached/src/models/streamed_cache_method.dart';
-import 'package:cached/src/utils/utils.dart';
+import 'package:persistant_cached/src/models/cache_peek_method.dart';
+import 'package:persistant_cached/src/models/cached_function.dart';
+import 'package:persistant_cached/src/models/cached_getter.dart';
+import 'package:persistant_cached/src/models/cached_method.dart';
+import 'package:persistant_cached/src/models/clear_all_cached_method.dart';
+import 'package:persistant_cached/src/models/clear_cached_method.dart';
+import 'package:persistant_cached/src/models/deletes_cache_method.dart';
+import 'package:persistant_cached/src/models/streamed_cache_method.dart';
+import 'package:persistant_cached/src/utils/utils.dart';
 import 'package:source_gen/source_gen.dart';
 
 void assertMethodNotVoid(ExecutableElement element) {

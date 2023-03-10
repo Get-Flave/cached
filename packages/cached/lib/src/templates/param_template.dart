@@ -1,4 +1,4 @@
-import 'package:cached/src/models/param.dart';
+import 'package:persistant_cached/src/models/param.dart';
 
 class ParamTemplate {
   const ParamTemplate(this.param);

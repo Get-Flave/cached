@@ -1,4 +1,4 @@
-import 'package:cached/src/utils/persistent_storage_holder_texts.dart';
+import 'package:persistant_cached/src/utils/persistent_storage_holder_texts.dart';
 import 'package:source_gen/source_gen.dart';
 
 class CommonGenerator {

@@ -1,9 +1,9 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
-import 'package:cached/src/config.dart';
-import 'package:cached/src/models/class_with_cache.dart';
-import 'package:cached/src/templates/file_template.dart';
 import 'package:cached_annotation/cached_annotation.dart';
+import 'package:persistant_cached/src/config.dart';
+import 'package:persistant_cached/src/models/class_with_cache.dart';
+import 'package:persistant_cached/src/templates/file_template.dart';
 import 'package:source_gen/source_gen.dart';
 
 class CachedGenerator extends GeneratorForAnnotation<WithCache> {

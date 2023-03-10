@@ -1,8 +1,8 @@
-import 'package:cached/src/models/cached_function.dart';
-import 'package:cached/src/utils/common_generator.dart';
-import 'package:cached/src/utils/persistent_storage_holder_texts.dart';
-import 'package:cached/src/utils/type_cast_appender.dart';
-import 'package:cached/src/utils/utils.dart';
+import 'package:persistant_cached/src/models/cached_function.dart';
+import 'package:persistant_cached/src/utils/common_generator.dart';
+import 'package:persistant_cached/src/utils/persistent_storage_holder_texts.dart';
+import 'package:persistant_cached/src/utils/type_cast_appender.dart';
+import 'package:persistant_cached/src/utils/utils.dart';
 
 abstract class CachedMethodTemplate {
   CachedMethodTemplate(

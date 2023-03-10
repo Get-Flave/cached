@@ -1,5 +1,5 @@
-import 'package:cached/src/models/param.dart';
-import 'package:cached/src/models/streamed_cache_method.dart';
+import 'package:persistant_cached/src/models/param.dart';
+import 'package:persistant_cached/src/models/streamed_cache_method.dart';
 
 final futureRegexp = RegExp(r'^Future<(.+)>$');
 final futureBoolRegexp = RegExp(r'^Future<bool>$');

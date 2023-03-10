@@ -1,4 +1,4 @@
-import 'package:cached/src/utils/type_cast_appender.dart';
+import 'package:persistant_cached/src/utils/type_cast_appender.dart';
 import 'package:test/test.dart';
 
 typedef TestFunction = void Function(String, String);
