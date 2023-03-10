@@ -7,7 +7,7 @@ targets:
 
 builders:
   cached:
-    import: "package:persistant_cached/cached.dart"
+    import: "package:persistant_cached/persistant_cached.dart"
     builder_factories: ["cachedBuilder"]
     build_extensions: { ".dart": [".cached.dart"] }
     auto_apply: dependents
