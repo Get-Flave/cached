@@ -1,9 +1,9 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/config.dart';
-import 'package:cached/src/models/cached_function.dart';
-import 'package:cached/src/models/cached_function_local_config.dart';
-import 'package:cached/src/models/param.dart';
-import 'package:cached/src/utils/asserts.dart';
+import 'package:persistant_cached/src/config.dart';
+import 'package:persistant_cached/src/models/cached_function.dart';
+import 'package:persistant_cached/src/models/cached_function_local_config.dart';
+import 'package:persistant_cached/src/models/param.dart';
+import 'package:persistant_cached/src/utils/asserts.dart';
 
 const _defaultSyncWriteValue = false;
 

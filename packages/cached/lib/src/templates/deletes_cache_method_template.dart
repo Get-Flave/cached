@@ -1,9 +1,9 @@
-import 'package:cached/src/models/deletes_cache_method.dart';
-import 'package:cached/src/models/streamed_cache_method.dart';
-import 'package:cached/src/templates/all_params_template.dart';
-import 'package:cached/src/utils/common_generator.dart';
-import 'package:cached/src/utils/persistent_storage_holder_texts.dart';
-import 'package:cached/src/utils/utils.dart';
+import 'package:persistant_cached/src/models/deletes_cache_method.dart';
+import 'package:persistant_cached/src/models/streamed_cache_method.dart';
+import 'package:persistant_cached/src/templates/all_params_template.dart';
+import 'package:persistant_cached/src/utils/common_generator.dart';
+import 'package:persistant_cached/src/utils/persistent_storage_holder_texts.dart';
+import 'package:persistant_cached/src/utils/utils.dart';
 
 class DeletesCacheMethodTemplate {
   DeletesCacheMethodTemplate(

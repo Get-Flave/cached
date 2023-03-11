@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/models/cached_function.dart';
-import 'package:cached/src/models/check_if_should_cache_method.dart';
+import 'package:persistant_cached/src/models/cached_function.dart';
+import 'package:persistant_cached/src/models/check_if_should_cache_method.dart';
 import 'package:source_gen/source_gen.dart';
 
 class CachedFunctionLocalConfig {

@@ -1,20 +1,20 @@
-import 'package:cached/src/models/cache_peek_method.dart';
-import 'package:cached/src/models/cached_getter.dart';
-import 'package:cached/src/models/cached_method.dart';
-import 'package:cached/src/models/class_with_cache.dart';
-import 'package:cached/src/models/clear_cached_method.dart';
-import 'package:cached/src/models/deletes_cache_method.dart';
-import 'package:cached/src/models/streamed_cache_method.dart';
-import 'package:cached/src/templates/all_params_template.dart';
-import 'package:cached/src/templates/cache_peek_method_template.dart';
-import 'package:cached/src/templates/cached_getter_template.dart';
-import 'package:cached/src/templates/cached_method_with_params_template.dart';
-import 'package:cached/src/templates/clear_all_cached_method_template.dart';
-import 'package:cached/src/templates/clear_cached_method_template.dart';
-import 'package:cached/src/templates/deletes_cache_method_template.dart';
-import 'package:cached/src/templates/streamed_method_template.dart';
-import 'package:cached/src/utils/common_generator.dart';
 import 'package:collection/collection.dart';
+import 'package:persistant_cached/src/models/cache_peek_method.dart';
+import 'package:persistant_cached/src/models/cached_getter.dart';
+import 'package:persistant_cached/src/models/cached_method.dart';
+import 'package:persistant_cached/src/models/class_with_cache.dart';
+import 'package:persistant_cached/src/models/clear_cached_method.dart';
+import 'package:persistant_cached/src/models/deletes_cache_method.dart';
+import 'package:persistant_cached/src/models/streamed_cache_method.dart';
+import 'package:persistant_cached/src/templates/all_params_template.dart';
+import 'package:persistant_cached/src/templates/cache_peek_method_template.dart';
+import 'package:persistant_cached/src/templates/cached_getter_template.dart';
+import 'package:persistant_cached/src/templates/cached_method_with_params_template.dart';
+import 'package:persistant_cached/src/templates/clear_all_cached_method_template.dart';
+import 'package:persistant_cached/src/templates/clear_cached_method_template.dart';
+import 'package:persistant_cached/src/templates/deletes_cache_method_template.dart';
+import 'package:persistant_cached/src/templates/streamed_method_template.dart';
+import 'package:persistant_cached/src/utils/common_generator.dart';
 
 class ClassTemplate {
   ClassTemplate(this.classWithCache);

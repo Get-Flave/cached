@@ -12,20 +12,24 @@ and the Flutter guide for
 -->
 <div align="center">
 <br /><br />
-<img width="128" src="https://github.com/Iteo/cached/raw/master/packages/cached/cached_sygnet.png">
+<img width="128" src="https://github.com/Get-Flave/cached/raw/master/packages/cached/cached_sygnet.png">
 <br /><br />
 
-[![Test status](https://github.com/Iteo/cached/workflows/Build/badge.svg)](https://github.com/Iteo/cached/actions/workflows/build.yml)
+[![Test status](https://github.com/Get-Flave/cached/workflows/Build/badge.svg)](https://github.com/Get-Flave/cached/actions/workflows/build.yml)
 &nbsp;
-[![stars](https://img.shields.io/github/stars/Iteo/cached.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/Iteo/cached)
+[![stars](https://img.shields.io/github/stars/Get-Flave/cached.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/Get-Flave/cached)
 &nbsp;
 [![pub package](https://img.shields.io/pub/v/cached.svg)](https://pub.dartlang.org/packages/cached) &nbsp;
-[![GitHub license](https://img.shields.io/badge/licence-MIT-green)](https://github.com/Iteo/cached/blob/master/packages/cached/LICENSE)
+[![GitHub license](https://img.shields.io/badge/licence-MIT-green)](https://github.com/Get-Flave/cached/blob/master/packages/cached/LICENSE)
 &nbsp;
 [![style:linteo](https://img.shields.io/badge/style-linteo-orange)](https://pub.dev/packages/linteo) &nbsp;
 </div>
 
 ---
+
+Note Original repository : <https://pub.dev/packages/cached>
+
+The problem with the original repository is that persistant storage cache don't works correctly.
 
 <h1>Cached</h1>
 
@@ -516,6 +520,7 @@ Throws an [InvalidGenerationSourceError]
 - if annotated method is abstract
 
 ## Persistent storage
+
 Cached library supports usage of any external storage (e.g. Shared Preferences, Hive), by passing `persistentStorage: true` parameter into `@Cached()` annotation:
 
 ```dart
@@ -577,11 +582,11 @@ Data saved to persistent storage can be deleted by using `@ClearCached()`, `@Cle
 
 Usage of persistent storage does not change this library caching behaviour in any way. It only adds new capabilities, but it can affect the way in which you implement your app:
 
-> **Important:** 
-> 
-> Please note, that persistent storage usage enforces you to provide async API when using Cached annotations! 
+> **Important:**
+>
+> Please note, that persistent storage usage enforces you to provide async API when using Cached annotations!
 
-For sample project, please check `persistent_storage_example` inside `cached/example` directory. 
+For sample project, please check `persistent_storage_example` inside `cached/example` directory.
 
 ## Contribution
 
@@ -619,7 +624,7 @@ Suggestions of a new feature or fix should be created via pull-request or issue.
 ## Contributors
 
 <div align="left">
-  <a href="https://github.com/Iteo/cached/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=Iteo/cached"/>
+  <a href="https://github.com/Get-Flave/cached/graphs/contributors">
+   <img src="https://contrib.rocks/image?repo=Get-Flave/cached"/>
   </a>
 </div>

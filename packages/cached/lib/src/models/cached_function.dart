@@ -1,8 +1,8 @@
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/models/check_if_should_cache_method.dart';
-import 'package:cached/src/utils/asserts.dart';
 import 'package:cached_annotation/cached_annotation.dart';
+import 'package:persistant_cached/src/models/check_if_should_cache_method.dart';
+import 'package:persistant_cached/src/utils/asserts.dart';
 import 'package:source_gen/source_gen.dart';
 
 abstract class CachedFunction {

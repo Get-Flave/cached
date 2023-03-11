@@ -1,7 +1,7 @@
-import 'package:cached/src/cached_generator.dart';
-import 'package:cached/src/config.dart';
 import 'package:cached_annotation/cached_annotation.dart';
 import 'package:path/path.dart' as path;
+import 'package:persistant_cached/src/cached_generator.dart';
+import 'package:persistant_cached/src/config.dart';
 import 'package:source_gen_test/source_gen_test.dart';
 
 import 'utils/test_storage.dart';

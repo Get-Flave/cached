@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/config.dart';
-import 'package:cached/src/models/cached_function.dart';
-import 'package:cached/src/models/cached_function_local_config.dart';
+import 'package:persistant_cached/src/config.dart';
+import 'package:persistant_cached/src/models/cached_function.dart';
+import 'package:persistant_cached/src/models/cached_function_local_config.dart';
 
 const _defaultSyncWriteValue = false;
 

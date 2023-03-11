@@ -68,7 +68,7 @@ class _StaticPersistedRepository
 
   @override
   Future<double> getNumber() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getNumberTtl[""];
@@ -106,7 +106,7 @@ class _StaticPersistedRepository
 
   @override
   Future<bool> getBool() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getBoolTtl[""];
@@ -152,7 +152,7 @@ class _StaticPersistedRepository
 
   @override
   Future<String> getText() async {
-    await _completerFuture;
+    _completerFuture;
 
     final cachedValue = _getTextCached[""];
     if (cachedValue == null) {
@@ -178,7 +178,7 @@ class _StaticPersistedRepository
   @override
   Future<void> clearGetNumber() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     await super.clearGetNumber();
@@ -194,7 +194,7 @@ class _StaticPersistedRepository
   @override
   Future<void> clearAll() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     await super.clearAll();
@@ -215,7 +215,7 @@ class _StaticPersistedRepository
   @override
   Future<void> deleteSelected() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     final result = await super.deleteSelected();
@@ -340,7 +340,7 @@ class _NonStaticPersistedRepository
 
   @override
   Future<double> getNumber() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getNumberTtl[""];
@@ -378,7 +378,7 @@ class _NonStaticPersistedRepository
 
   @override
   Future<bool> getBool() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getBoolTtl[""];
@@ -424,7 +424,7 @@ class _NonStaticPersistedRepository
 
   @override
   Future<String> getText() async {
-    await _completerFuture;
+    _completerFuture;
 
     final cachedValue = _getTextCached[""];
     if (cachedValue == null) {
@@ -450,7 +450,7 @@ class _NonStaticPersistedRepository
   @override
   Future<void> clearGetNumber() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     await super.clearGetNumber();
@@ -466,7 +466,7 @@ class _NonStaticPersistedRepository
   @override
   Future<void> clearAll() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     await super.clearAll();
@@ -487,7 +487,7 @@ class _NonStaticPersistedRepository
   @override
   Future<void> deleteSelected() async {
     if (PersistentStorageHolder.isStorageSet) {
-      await _completerFuture;
+      _completerFuture;
     }
 
     final result = await super.deleteSelected();
@@ -674,7 +674,7 @@ class _NonStaticNestedGenericType
 
   @override
   Future<List<int>> getNumbers() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getNumbersTtl[""];
@@ -803,7 +803,7 @@ class _StaticNestedGenericType
 
   @override
   Future<List<int>> getNumbers() async {
-    await _completerFuture;
+    _completerFuture;
 
     final now = DateTime.now();
     final cachedTtl = _getNumbersTtl[""];

@@ -1,8 +1,8 @@
-import 'package:cached/src/utils/persistent_storage_holder_texts.dart';
+import 'package:persistant_cached/src/utils/persistent_storage_holder_texts.dart';
 import 'package:source_gen/source_gen.dart';
 
 class CommonGenerator {
-  static const awaitCompleterFutureText = 'await _completerFuture;';
+  static const awaitCompleterFutureText = '_completerFuture;';
   static const completerCompleteText = '_completer.complete();';
 
   static String generatePersistentStorageAwait({

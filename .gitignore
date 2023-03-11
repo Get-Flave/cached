@@ -19,3 +19,4 @@ coverage.lcov
 
 # Melos-generated file
 pubspec_overrides.yaml
+package_config.json

@@ -95,10 +95,10 @@ packages:
   cached_annotation:
     dependency: "direct main"
     description:
-      name: cached_annotation
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.5.0"
+      path: "../../../cached_annotation"
+      relative: true
+    source: path
+    version: "1.6.0"
   checked_yaml:
     dependency: transitive
     description:

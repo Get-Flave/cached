@@ -1,5 +1,5 @@
-import 'package:cached/src/models/param.dart';
-import 'package:cached/src/templates/param_template.dart';
+import 'package:persistant_cached/src/models/param.dart';
+import 'package:persistant_cached/src/templates/param_template.dart';
 import 'package:source_gen/source_gen.dart';
 
 class AllParamsTemplate {

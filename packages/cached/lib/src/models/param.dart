@@ -1,6 +1,6 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cached/src/config.dart';
 import 'package:cached_annotation/cached_annotation.dart';
+import 'package:persistant_cached/src/config.dart';
 import 'package:source_gen/source_gen.dart';
 
 const _defaultOnCacheOnError = false;

@@ -1,13 +1,13 @@
 targets:
   $default:
     builders:
-      cached:
+      persistant_cached:
         generate_for:
           - test/integration/**
 
 builders:
-  cached:
-    import: "package:cached/cached.dart"
+  persistant_cached:
+    import: "package:persistant_cached/persistant_cached.dart"
     builder_factories: ["cachedBuilder"]
     build_extensions: { ".dart": [".cached.dart"] }
     auto_apply: dependents
