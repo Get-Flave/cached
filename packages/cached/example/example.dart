@@ -132,7 +132,7 @@ abstract class Gen implements _$Gen {
 
 Future<bool> _shouldCache(Response response) async {
   final json = jsonDecode(response.body) as Map<String, dynamic>;
-  print('Up to you: check conditionally and decide if should cache: $json');
+  print('Up to you : check conditionally and decide if should cache: $json');
   print('For now: always cache');
   return true;
 }
